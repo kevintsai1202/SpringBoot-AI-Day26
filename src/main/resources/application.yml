@@ -1,0 +1,20 @@
+spring:
+  ai:
+    openai:
+      api-key: ${OPENAI_KEY}
+      chat:
+        options:
+          model: gpt-4o-mini
+#      api-key: ${GROQ_APIKEY}      
+#      base-url: https://api.groq.com/openai
+#      chat:
+#        options:
+#          model: llama-3.1-70b-versatile #mixtral-8x7b-32768 #llama-3.1-70b-versatile #gemma2-9b-it #mixtral-8x7b-32768 #llama3-groq-70b-8192-tool-use-preview #llama-3.1-70b-versatile #llama3-70b-8192
+#      embedding:
+#        api-key: ${OPENAI_KEY}
+#        base-url: https://api.openai.com
+  neo4j:
+    authentication:
+      password: password
+      username: neo4j
+    uri: neo4j+s://localhost
